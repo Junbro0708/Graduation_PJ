@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{D94D290B-529D-2374-1208-FB972CF435DB}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/3Scripts/BoatMove.cs">
+    <Files>
+      <File FileName="Assets/3Scripts/BoatMove.cs" Line="7" Column="5" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="GraduationPJ" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="3Scripts" expanded="True">
+                <Node name="BoatMove.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="de54aa17-d437-4166-b156-54b459acbb39" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
