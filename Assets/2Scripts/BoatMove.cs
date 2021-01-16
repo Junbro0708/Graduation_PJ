@@ -11,15 +11,15 @@ public class BoatMove : MonoBehaviour
     {
         time += Time.deltaTime;
 
-        if (time < 3)
+        if (time < 4)
         {
             transform.Translate(Vector3.right * speed * Time.deltaTime);
-        }else if(time > 3 && time < 6)
+        }else if(time > 4 && time < 7)
         {
             transform.Translate(Vector3.left * speed * Time.deltaTime);
         }
 
-        if (time > 8)
+        if (time > 9)
             time = 0;
 
         Debug.Log(time);

@@ -1,16 +1,15 @@
 ﻿<Properties StartupConfiguration="{D94D290B-529D-2374-1208-FB972CF435DB}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/3Scripts/CloudMove.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/2Scripts/BoatMove.cs">
     <Files>
-      <File FileName="Assets/3Scripts/CloudMove.cs" Line="14" Column="59" />
-      <File FileName="Assets/3Scripts/BoatMove.cs" Line="16" Column="73" />
+      <File FileName="Assets/2Scripts/BoatMove.cs" Line="17" Column="39" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="GraduationPJ" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="3Scripts" expanded="True">
-                <Node name="CloudMove.cs" selected="True" />
+              <Node name="2Scripts" expanded="True">
+                <Node name="BoatMove.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -20,7 +19,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="140d4a18-af79-461d-b755-72fbfb9ff334" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="58d21a00-206c-4d3d-9298-b1d064ace737" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
