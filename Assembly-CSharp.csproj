@@ -81,6 +81,12 @@
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/JUN_BRO/Unity/GraduationPJ/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.IK.Editor">
+      <HintPath>/Users/JUN_BRO/Unity/GraduationPJ/Library/ScriptAssemblies/Unity.2D.IK.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.IK.Runtime">
+      <HintPath>/Users/JUN_BRO/Unity/GraduationPJ/Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>/Users/JUN_BRO/Unity/GraduationPJ/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
@@ -134,12 +140,6 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>/Users/JUN_BRO/Unity/GraduationPJ/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.IK.Editor">
-      <HintPath>/Users/JUN_BRO/Unity/GraduationPJ/Library/ScriptAssemblies/Unity.2D.IK.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.IK.Runtime">
-      <HintPath>/Users/JUN_BRO/Unity/GraduationPJ/Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
