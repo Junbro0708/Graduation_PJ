@@ -66,6 +66,8 @@
   <ItemGroup>
     <Compile Include="Assets\2Scripts\BoatMove.cs" />
     <Compile Include="Assets\2Scripts\CloudMove.cs" />
+    <Compile Include="Assets\2Scripts\EventActive.cs" />
+    <Compile Include="Assets\2Scripts\Stop.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/JUN_BRO/Unity/GraduationPJ/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>

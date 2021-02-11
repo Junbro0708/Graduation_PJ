@@ -27,7 +27,5 @@ public class BoatMove : MonoBehaviour
 
         if (time > 21)
             time = -6;
-
-        Debug.Log(time);
     }
 }
