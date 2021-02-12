@@ -5,7 +5,7 @@ using UnityEngine;
 public class EventActive : MonoBehaviour
 {
     public GameObject window;
-    public Animator anim;
+    Animator anim;
 
     private void Start()
     {
