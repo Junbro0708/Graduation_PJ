@@ -848,7 +848,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 971468c3e60ab4ef591d09d55510de68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
+  speed: 0.5
 --- !u!212 &350055553
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1109,7 +1109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 971468c3e60ab4ef591d09d55510de68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
+  speed: 0.4
 --- !u!212 &467291740
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2010,8 +2010,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e428cf7eb1b2a4ccdb9f3dad453983e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  time: 0
+  speed: 1
+  time: 3
 --- !u!1 &864438166
 GameObject:
   m_ObjectHideFlags: 0
@@ -3903,7 +3903,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 971468c3e60ab4ef591d09d55510de68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
+  speed: 0.3
 --- !u!212 &1661948116
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3998,7 +3998,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 971468c3e60ab4ef591d09d55510de68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
+  speed: 0.4
 --- !u!212 &1688692538
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4703,7 +4703,7 @@ Canvas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2098887950}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_RenderMode: 0
   m_Camera: {fileID: 0}

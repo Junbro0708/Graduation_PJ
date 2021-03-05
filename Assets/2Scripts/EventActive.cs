@@ -6,6 +6,8 @@ public class EventActive : MonoBehaviour
 {
     public GameObject window;
     Animator anim;
+    bool isActiveL = false;
+    bool isActiveR = false;
 
     private void Start()
     {
@@ -24,14 +26,14 @@ public class EventActive : MonoBehaviour
 
     void SetEvent()
     {
-        if (Input.GetMouseButtonDown(0)) // 좌클릭을 하면 들어가는 애니메이션 구현
+        if (Input.GetMouseButtonDown(0) && !isActiveL && !isActiveR) // 좌클릭을 하면 들어가는 애니메이션 구현
         {
             anim.speed = 1f; 
             anim.Play("Event");
             Invoke("Hide", 0.45f); // 창문이 바로 사라지면 살짝 어색해서 딜레이 줬어 
         }
 
-        if (Input.GetMouseButtonDown(1)) // 우클릭을 하면 돌아오는 애니메이션 구현
+        if (Input.GetMouseButtonDown(1) && isActiveL && isActiveR) // 우클릭을 하면 돌아오는 애니메이션 구현 (예외 처리로 좌클릭을 누를경우 방지시켰는데 예외처리 한번 더 해야함. 그건 이벤트 구현 뒤에)
         {
             anim.speed = 1f;
             anim.Play("EventOut");
@@ -45,10 +47,33 @@ public class EventActive : MonoBehaviour
     }
     void Hide()
     {
-        window.SetActive(false); 
+        window.SetActive(false);
     }
     void Show()
     {
         window.SetActive(true);
+        isActiveL = false;
+    }
+
+    void IsActiveL()
+    {
+        isActiveL = true;
+        Debug.Log(isActiveL);
+    }
+    void IsNotActiveL()
+    {
+        isActiveL = false;
+        Debug.Log(isActiveL);
+    }
+
+    void IsActiveR()
+    {
+        isActiveR = true;
+        Debug.Log(isActiveR);
+    }
+    void IsNotActiveR()
+    {
+        isActiveR = false;
+        Debug.Log(isActiveR);
     }
 }
