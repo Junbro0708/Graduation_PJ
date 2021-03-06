@@ -67,6 +67,7 @@
     <Compile Include="Assets\2Scripts\BoatMove.cs" />
     <Compile Include="Assets\2Scripts\CloudMove.cs" />
     <Compile Include="Assets\2Scripts\EventActive.cs" />
+    <Compile Include="Assets\2Scripts\FadeIN.cs" />
     <Compile Include="Assets\2Scripts\FadeInOut.cs" />
     <Compile Include="Assets\2Scripts\Init_Splash.cs" />
     <Reference Include="Unity.Timeline.Editor">
