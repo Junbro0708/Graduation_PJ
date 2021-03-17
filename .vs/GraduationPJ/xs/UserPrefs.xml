@@ -1,12 +1,12 @@
 ﻿<Properties StartupConfiguration="{D94D290B-529D-2374-1208-FB972CF435DB}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/2Scripts/FadeIN.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/2Scripts/EventActive.cs">
     <Files>
-      <File FileName="Assets/2Scripts/EventActive.cs" Line="24" Column="39" />
+      <File FileName="Assets/2Scripts/FadeIN.cs" Line="17" Column="12" />
+      <File FileName="Assets/2Scripts/EventActive.cs" Line="40" Column="32" />
       <File FileName="Assets/2Scripts/FadeInOut.cs" />
       <File FileName="Assets/2Scripts/BoatMove.cs" />
       <File FileName="Assets/2Scripts/CloudMove.cs" />
       <File FileName="Assets/2Scripts/Init_Splash.cs" />
-      <File FileName="Assets/2Scripts/FadeIN.cs" Line="21" Column="12" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,7 +14,7 @@
           <Node name="GraduationPJ" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="2Scripts" expanded="True">
-                <Node name="FadeIN.cs" selected="True" />
+                <Node name="EventActive.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -24,7 +24,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="2c8b2488-5165-4634-b918-5d43c9b3ea0c" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="abdf3ba3-1c73-4df1-b528-3b148fe4cd2e" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

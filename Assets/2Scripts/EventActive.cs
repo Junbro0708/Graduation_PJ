@@ -37,7 +37,7 @@ public class EventActive : MonoBehaviour
         {
             anim.speed = 1f;
             anim.Play("EventOut");
-            Invoke("Show", 0.3f);
+            Invoke("Show", 0.11f);
         }
     }
     

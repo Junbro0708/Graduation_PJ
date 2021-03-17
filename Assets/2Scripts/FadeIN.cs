@@ -14,7 +14,7 @@ public class FadeIN : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0)) 
         {
-            Fade();
+           Fade();
         }
         if (Input.GetMouseButtonDown(1))
         {
