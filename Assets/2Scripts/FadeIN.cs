@@ -10,15 +10,26 @@ public class FadeIN : MonoBehaviour
     float time = 0f;
     float fade_T = 0.5f;
 
+    bool isActiveL = false;
+    bool isActiveR = false;
+
     void Update()
     {
-        if (Input.GetMouseButtonDown(0)) 
+        if (Input.GetButtonDown("House In") && !isActiveL && !isActiveR)
         {
-           Fade();
+            Fade();
         }
-        if (Input.GetMouseButtonDown(1))
+        if (Input.GetButtonDown("House Out") && isActiveL && isActiveR)
         {
-           Fade();
+            Fade();
+        }
+        if (Input.GetButtonDown("Enviroment In") && !isActiveL && !isActiveR)
+        {
+            Fade();
+        }
+        if (Input.GetButtonDown("Enviroment Out") && isActiveL && isActiveR)
+        {
+            Fade();
         }
     }
 
@@ -54,5 +65,27 @@ public class FadeIN : MonoBehaviour
 
         Panel.gameObject.SetActive(false);
         yield return null;
+    }
+
+    void FIsActiveL()
+    {
+        isActiveL = true;
+        Debug.Log(isActiveL);
+    }
+    void FIsNotActiveL()
+    {
+        isActiveL = false;
+        Debug.Log(isActiveL);
+    }
+
+    void FIsActiveR()
+    {
+        isActiveR = true;
+        Debug.Log(isActiveR);
+    }
+    void FIsNotActiveR()
+    {
+        isActiveR = false;
+        Debug.Log(isActiveR);
     }
 }

@@ -68,8 +68,6 @@
     <Compile Include="Assets\2Scripts\CloudMove.cs" />
     <Compile Include="Assets\2Scripts\EventActive.cs" />
     <Compile Include="Assets\2Scripts\FadeIN.cs" />
-    <Compile Include="Assets\2Scripts\FadeInOut.cs" />
-    <Compile Include="Assets\2Scripts\Init_Splash.cs" />
     <Compile Include="Assets\OpenCV+Unity\Assets\Scripts\DLib\PInvoke\NativeMethods_dlib.cs" />
     <Compile Include="Assets\OpenCV+Unity\Assets\Scripts\DLib\ShapePredictor.cs" />
     <Compile Include="Assets\OpenCV+Unity\Assets\Scripts\OpenCvSharp\Constants.cs" />
