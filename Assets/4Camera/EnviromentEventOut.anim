@@ -20,7 +20,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -33.2, y: -9.347702, z: -1.4}
+        value: {x: -40.03, y: -8.63, z: -1.4}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -93,7 +93,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -33.2
+        value: -40.03
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -130,7 +130,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -9.347702
+        value: -8.63
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -204,7 +204,7 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0.016666668
-    functionName: IsNotActiveL
+    functionName: HideBtn_E
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
@@ -212,6 +212,13 @@ AnimationClip:
     messageOptions: 0
   - time: 0.016666668
     functionName: FIsNotActiveL
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.016666668
+    functionName: IsNotActiveL
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
