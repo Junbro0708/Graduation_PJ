@@ -40,4 +40,9 @@ public class ButtonActive : MonoBehaviour
     {
         SceneManager.LoadScene("Family_Event");
     }
+
+    public void OnClick_Btn_E()
+    {
+        SceneManager.LoadScene("Enviroment_Event");
+    }
 }

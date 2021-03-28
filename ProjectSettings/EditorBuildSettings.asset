@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/0Scenes/Family_Event.unity
     guid: 605312dc6be5b4ba9bc34733b64f7793
+  - enabled: 1
+    path: Assets/0Scenes/Enviroment_Event.unity
+    guid: 413c9b6ac61944778953a900752f9966
   m_configObjects: {}
