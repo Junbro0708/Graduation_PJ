@@ -7,12 +7,18 @@ public class ButtonActive : MonoBehaviour
 {
     public GameObject btn_E;
     public GameObject btn_F;
+    public GameObject btn_D;
+    public GameObject btn_S;
 
     public void HideBtn_E()
     {
         btn_E.SetActive(false);
 
         btn_F.SetActive(false);
+
+        btn_D.SetActive(false);
+
+        btn_S.SetActive(false);
     }
 
     public void AppendBtn_E()
@@ -20,6 +26,10 @@ public class ButtonActive : MonoBehaviour
         btn_E.SetActive(true);
 
         btn_F.SetActive(false);
+
+        btn_D.SetActive(false);
+
+        btn_S.SetActive(false);
     }
 
     public void HideBtn_F()
@@ -27,6 +37,10 @@ public class ButtonActive : MonoBehaviour
         btn_F.SetActive(false);
 
         btn_E.SetActive(false);
+
+        btn_D.SetActive(false);
+
+        btn_S.SetActive(false);
     }
 
     public void AppendBtn_F()
@@ -34,6 +48,54 @@ public class ButtonActive : MonoBehaviour
         btn_F.SetActive(true);
 
         btn_E.SetActive(false);
+
+        btn_D.SetActive(false);
+
+        btn_S.SetActive(false);
+    }
+
+    public void HideBtn_D()
+    {
+        btn_F.SetActive(false);
+
+        btn_E.SetActive(false);
+
+        btn_D.SetActive(false);
+
+        btn_S.SetActive(false);
+    }
+
+    public void AppendBtn_D()
+    {
+        btn_F.SetActive(false);
+
+        btn_E.SetActive(false);
+
+        btn_D.SetActive(true);
+
+        btn_S.SetActive(false);
+    }
+
+    public void HideBtn_S()
+    {
+        btn_F.SetActive(false);
+
+        btn_E.SetActive(false);
+
+        btn_D.SetActive(false);
+
+        btn_S.SetActive(false);
+    }
+
+    public void AppendBtn_S()
+    {
+        btn_F.SetActive(false);
+
+        btn_E.SetActive(false);
+
+        btn_D.SetActive(false);
+
+        btn_S.SetActive(true);
     }
 
     public void OnClick_Btn_F()
@@ -44,5 +106,15 @@ public class ButtonActive : MonoBehaviour
     public void OnClick_Btn_E()
     {
         SceneManager.LoadScene("Enviroment_Event");
+    }
+
+    public void OnClick_Btn_D()
+    {
+        SceneManager.LoadScene("Date_Event");
+    }
+
+    public void OnClick_Btn_S()
+    {
+        SceneManager.LoadScene("Suicide_Event");
     }
 }

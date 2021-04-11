@@ -49,6 +49,34 @@ public class EventActive : MonoBehaviour
             anim.Play("EnviromentEventOut");
             Invoke("HideE", 0.05f);
         }
+
+        if (Input.GetButtonDown("Date In") && !isActiveL && !isActiveR) // 데이트 폭력 문제는 5-6
+        {
+            anim.speed = 1f;
+            anim.Play("DateEvent");
+            //Invoke("ShowE", 0.45f);
+        }
+
+        if (Input.GetButtonDown("Date Out") && isActiveL && isActiveR)
+        {
+            anim.speed = 1f;
+            anim.Play("DateEventOut");
+            //Invoke("HideE", 0.05f);
+        }
+
+        if (Input.GetButtonDown("Suicide In") && !isActiveL && !isActiveR) // 자살 문제는 7-8
+        {
+            anim.speed = 1f;
+            anim.Play("SuicideEvent");
+            //Invoke("ShowE", 0.45f);
+        }
+
+        if (Input.GetButtonDown("Suicide Out") && isActiveL && isActiveR)
+        {
+            anim.speed = 1f;
+            anim.Play("SuicideEventOut");
+            //Invoke("HideE", 0.05f);
+        }
     }
 
     void Hide()

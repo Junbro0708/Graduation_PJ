@@ -31,6 +31,22 @@ public class FadeIN : MonoBehaviour
         {
             Fade();
         }
+        if (Input.GetButtonDown("Date In") && !isActiveL && !isActiveR)
+        {
+            Fade();
+        }
+        if (Input.GetButtonDown("Date Out") && isActiveL && isActiveR)
+        {
+            Fade();
+        }
+        if (Input.GetButtonDown("Suicide In") && !isActiveL && !isActiveR)
+        {
+            Fade();
+        }
+        if (Input.GetButtonDown("Suicide Out") && isActiveL && isActiveR)
+        {
+            Fade();
+        }
     }
 
     public void Fade()
