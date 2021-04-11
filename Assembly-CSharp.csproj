@@ -67,10 +67,10 @@
     <Compile Include="Assets\2Scripts\BoatMove.cs" />
     <Compile Include="Assets\2Scripts\ButtonActive.cs" />
     <Compile Include="Assets\2Scripts\CloudMove.cs" />
+    <Compile Include="Assets\2Scripts\Enviroment_Event\ServerSocket.cs" />
     <Compile Include="Assets\2Scripts\EventActive.cs" />
     <Compile Include="Assets\2Scripts\FadeIN.cs" />
     <Compile Include="Assets\2Scripts\MainSceneIn.cs" />
-    <Compile Include="Assets\2Scripts\Server.cs" />
     <Compile Include="Assets\OpenCV+Unity\Assets\Scripts\DLib\PInvoke\NativeMethods_dlib.cs" />
     <Compile Include="Assets\OpenCV+Unity\Assets\Scripts\DLib\ShapePredictor.cs" />
     <Compile Include="Assets\OpenCV+Unity\Assets\Scripts\OpenCvSharp\Constants.cs" />
