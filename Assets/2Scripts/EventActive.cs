@@ -77,6 +77,20 @@ public class EventActive : MonoBehaviour
             anim.Play("SuicideEventOut");
             //Invoke("HideE", 0.05f);
         }
+
+        if (Input.GetButtonDown("Animal In") && !isActiveL && !isActiveR) // 자살 문제는 9-0
+        {
+            anim.speed = 1f;
+            anim.Play("AnimalEvent");
+            //Invoke("ShowE", 0.45f);
+        }
+
+        if (Input.GetButtonDown("Animal Out") && isActiveL && isActiveR)
+        {
+            anim.speed = 1f;
+            anim.Play("AnimalEventOut");
+            //Invoke("HideE", 0.05f);
+        }
     }
 
     void Hide()

@@ -47,6 +47,14 @@ public class FadeIN : MonoBehaviour
         {
             Fade();
         }
+        if (Input.GetButtonDown("Animal In") && !isActiveL && !isActiveR)
+        {
+            Fade();
+        }
+        if (Input.GetButtonDown("Animal Out") && isActiveL && isActiveR)
+        {
+            Fade();
+        }
     }
 
     public void Fade()
