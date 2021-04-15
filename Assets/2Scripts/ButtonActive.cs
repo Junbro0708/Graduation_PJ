@@ -9,6 +9,7 @@ public class ButtonActive : MonoBehaviour
     public GameObject btn_F;
     public GameObject btn_D;
     public GameObject btn_S;
+    public GameObject btn_A;
 
     public void HideBtn_E()
     {
@@ -19,6 +20,8 @@ public class ButtonActive : MonoBehaviour
         btn_D.SetActive(false);
 
         btn_S.SetActive(false);
+
+        btn_A.SetActive(false);
     }
 
     public void AppendBtn_E()
@@ -30,6 +33,8 @@ public class ButtonActive : MonoBehaviour
         btn_D.SetActive(false);
 
         btn_S.SetActive(false);
+
+        btn_A.SetActive(false);
     }
 
     public void HideBtn_F()
@@ -41,6 +46,8 @@ public class ButtonActive : MonoBehaviour
         btn_D.SetActive(false);
 
         btn_S.SetActive(false);
+
+        btn_A.SetActive(false);
     }
 
     public void AppendBtn_F()
@@ -52,6 +59,8 @@ public class ButtonActive : MonoBehaviour
         btn_D.SetActive(false);
 
         btn_S.SetActive(false);
+
+        btn_A.SetActive(false);
     }
 
     public void HideBtn_D()
@@ -63,6 +72,8 @@ public class ButtonActive : MonoBehaviour
         btn_D.SetActive(false);
 
         btn_S.SetActive(false);
+
+        btn_A.SetActive(false);
     }
 
     public void AppendBtn_D()
@@ -74,6 +85,8 @@ public class ButtonActive : MonoBehaviour
         btn_D.SetActive(true);
 
         btn_S.SetActive(false);
+
+        btn_A.SetActive(false);
     }
 
     public void HideBtn_S()
@@ -85,6 +98,8 @@ public class ButtonActive : MonoBehaviour
         btn_D.SetActive(false);
 
         btn_S.SetActive(false);
+
+        btn_A.SetActive(false);
     }
 
     public void AppendBtn_S()
@@ -96,6 +111,34 @@ public class ButtonActive : MonoBehaviour
         btn_D.SetActive(false);
 
         btn_S.SetActive(true);
+
+        btn_A.SetActive(false);
+    }
+
+    public void HideBtn_A()
+    {
+        btn_F.SetActive(false);
+
+        btn_E.SetActive(false);
+
+        btn_D.SetActive(false);
+
+        btn_S.SetActive(false);
+
+        btn_A.SetActive(false);
+    }
+
+    public void AppendBtn_A()
+    {
+        btn_F.SetActive(false);
+
+        btn_E.SetActive(false);
+
+        btn_D.SetActive(false);
+
+        btn_S.SetActive(false);
+
+        btn_A.SetActive(true);
     }
 
     public void OnClick_Btn_F()
@@ -116,5 +159,10 @@ public class ButtonActive : MonoBehaviour
     public void OnClick_Btn_S()
     {
         SceneManager.LoadScene("Suicide_Event");
+    }
+
+    public void OnClick_Btn_A()
+    {
+        SceneManager.LoadScene("Animal_Event");
     }
 }

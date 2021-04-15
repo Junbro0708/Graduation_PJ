@@ -1,13 +1,13 @@
 ﻿<Properties StartupConfiguration="{D94D290B-529D-2374-1208-FB972CF435DB}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/2Scripts/EventActive.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/2Scripts/ButtonActive.cs">
     <Files>
       <File FileName="Assets/2Scripts/MainSceneIn.cs" Line="12" Column="13" />
-      <File FileName="Assets/2Scripts/FadeIN.cs" />
-      <File FileName="Assets/2Scripts/EventActive.cs" Line="1" Column="1" />
+      <File FileName="Assets/2Scripts/FadeIN.cs" Line="54" Column="40" />
+      <File FileName="Assets/2Scripts/EventActive.cs" />
       <File FileName="Assets/2Scripts/BoatMove.cs" />
       <File FileName="Assets/2Scripts/CloudMove.cs" />
-      <File FileName="Assets/2Scripts/ButtonActive.cs" />
-      <File FileName="Assets/2Scripts/Enviroment_Event/ServerSocket.cs" Line="38" Column="29" />
+      <File FileName="Assets/2Scripts/ButtonActive.cs" Line="141" Column="29" />
+      <File FileName="Assets/2Scripts/Enviroment_Event/ServerSocket.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -25,7 +25,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="7b735e8c-8bb1-4035-908d-6c77d60f7c99" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="7dc0af30-edb9-4b23-a2c3-679d97516645" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/0Scenes/Date_Event.unity
     guid: 713b547da18ed4fbcb660307798106ea
+  - enabled: 1
+    path: Assets/0Scenes/Animal_Event.unity
+    guid: c0352495449214de5b85d40d5bc3cafa
   m_configObjects: {}
