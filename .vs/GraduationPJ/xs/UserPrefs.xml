@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{D94D290B-529D-2374-1208-FB972CF435DB}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/2Scripts/ButtonActive.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/2Scripts/RageBar.cs">
     <Files>
+      <File FileName="Assets/2Scripts/RageBar.cs" Line="46" Column="1" />
       <File FileName="Assets/2Scripts/MainSceneIn.cs" Line="12" Column="13" />
-      <File FileName="Assets/2Scripts/FadeIN.cs" Line="54" Column="40" />
+      <File FileName="Assets/2Scripts/FadeIN.cs" />
       <File FileName="Assets/2Scripts/EventActive.cs" />
       <File FileName="Assets/2Scripts/BoatMove.cs" />
       <File FileName="Assets/2Scripts/CloudMove.cs" />
@@ -13,9 +14,10 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="GraduationPJ" expanded="True">
-            <Node name="Assets" expanded="True" selected="True">
+            <Node name="Assets" expanded="True">
               <Node name="2Scripts" expanded="True">
                 <Node name="Enviroment_Event" expanded="True" />
+                <Node name="RageBar.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -25,7 +27,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="7dc0af30-edb9-4b23-a2c3-679d97516645" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="038321de-7762-4f19-8109-688f3c566760" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

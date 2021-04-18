@@ -71,6 +71,7 @@
     <Compile Include="Assets\2Scripts\EventActive.cs" />
     <Compile Include="Assets\2Scripts\FadeIN.cs" />
     <Compile Include="Assets\2Scripts\MainSceneIn.cs" />
+    <Compile Include="Assets\2Scripts\RageBar.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/JUN_BRO/Unity/GraduationPJ/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
