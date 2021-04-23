@@ -145,7 +145,7 @@ public class RageBar : MonoBehaviour
             nine.gameObject.SetActive(false);
             ten.gameObject.SetActive(false);
 
-            Anger1.SetActive(true);
+            Anger1.SetActive(false);
             Anger2.SetActive(true);
             Anger3.SetActive(false);
         }
@@ -162,7 +162,7 @@ public class RageBar : MonoBehaviour
             nine.gameObject.SetActive(false);
             ten.gameObject.SetActive(false);
 
-            Anger1.SetActive(true);
+            Anger1.SetActive(false);
             Anger2.SetActive(true);
             Anger3.SetActive(false);
         }
@@ -179,7 +179,7 @@ public class RageBar : MonoBehaviour
             nine.gameObject.SetActive(false);
             ten.gameObject.SetActive(false);
 
-            Anger1.SetActive(true);
+            Anger1.SetActive(false);
             Anger2.SetActive(true);
             Anger3.SetActive(false);
         }
@@ -196,8 +196,8 @@ public class RageBar : MonoBehaviour
             nine.gameObject.SetActive(true);
             ten.gameObject.SetActive(false);
 
-            Anger1.SetActive(true);
-            Anger2.SetActive(true);
+            Anger1.SetActive(false);
+            Anger2.SetActive(false);
             Anger3.SetActive(true);
         }
         else if(gage > 9)
@@ -213,8 +213,8 @@ public class RageBar : MonoBehaviour
             nine.gameObject.SetActive(true);
             ten.gameObject.SetActive(true);
 
-            Anger1.SetActive(true);
-            Anger2.SetActive(true);
+            Anger1.SetActive(false);
+            Anger2.SetActive(false);
             Anger3.SetActive(true);
         }
     }
