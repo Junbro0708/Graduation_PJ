@@ -15,7 +15,8 @@ public class RageBar : MonoBehaviour
     public Image seven;
     public Image eight;
     public Image nine;
-    public Image ten; // 이거는 게이지 블록들
+    public Image ten;
+    public Image eleven;// 이거는 게이지 블록들
 
     public GameObject Anger1;
     public GameObject Anger2;
@@ -37,7 +38,7 @@ public class RageBar : MonoBehaviour
         if(gage < 0)
         {
             gage = 0; // 그리고 게이지가 0이면 그대로 계속 0으로 만들었움.
-        }else if(gage > 10)
+        }else if(gage > 11)
         {
             SceneManager.LoadScene("MainScene"); // 게이지가 도달하면 메인씬으로 이동하는건데 나중에 수정해야지
         }
@@ -59,6 +60,7 @@ public class RageBar : MonoBehaviour
             eight.gameObject.SetActive(false);
             nine.gameObject.SetActive(false);
             ten.gameObject.SetActive(false);
+            eleven.gameObject.SetActive(false);
 
             Anger1.SetActive(false);
             Anger2.SetActive(false);
@@ -76,6 +78,7 @@ public class RageBar : MonoBehaviour
             eight.gameObject.SetActive(false);
             nine.gameObject.SetActive(false);
             ten.gameObject.SetActive(false);
+            eleven.gameObject.SetActive(false);
 
             Anger1.SetActive(false);
             Anger2.SetActive(false);
@@ -93,6 +96,7 @@ public class RageBar : MonoBehaviour
             eight.gameObject.SetActive(false);
             nine.gameObject.SetActive(false);
             ten.gameObject.SetActive(false);
+            eleven.gameObject.SetActive(false);
 
             Anger1.SetActive(true);
             Anger2.SetActive(false);
@@ -110,6 +114,7 @@ public class RageBar : MonoBehaviour
             eight.gameObject.SetActive(false);
             nine.gameObject.SetActive(false);
             ten.gameObject.SetActive(false);
+            eleven.gameObject.SetActive(false);
 
             Anger1.SetActive(true);
             Anger2.SetActive(false);
@@ -127,6 +132,7 @@ public class RageBar : MonoBehaviour
             eight.gameObject.SetActive(false);
             nine.gameObject.SetActive(false);
             ten.gameObject.SetActive(false);
+            eleven.gameObject.SetActive(false);
 
             Anger1.SetActive(true);
             Anger2.SetActive(false);
@@ -144,6 +150,7 @@ public class RageBar : MonoBehaviour
             eight.gameObject.SetActive(false);
             nine.gameObject.SetActive(false);
             ten.gameObject.SetActive(false);
+            eleven.gameObject.SetActive(false);
 
             Anger1.SetActive(false);
             Anger2.SetActive(true);
@@ -161,6 +168,7 @@ public class RageBar : MonoBehaviour
             eight.gameObject.SetActive(false);
             nine.gameObject.SetActive(false);
             ten.gameObject.SetActive(false);
+            eleven.gameObject.SetActive(false);
 
             Anger1.SetActive(false);
             Anger2.SetActive(true);
@@ -178,6 +186,7 @@ public class RageBar : MonoBehaviour
             eight.gameObject.SetActive(true);
             nine.gameObject.SetActive(false);
             ten.gameObject.SetActive(false);
+            eleven.gameObject.SetActive(false);
 
             Anger1.SetActive(false);
             Anger2.SetActive(true);
@@ -195,12 +204,13 @@ public class RageBar : MonoBehaviour
             eight.gameObject.SetActive(true);
             nine.gameObject.SetActive(true);
             ten.gameObject.SetActive(false);
+            eleven.gameObject.SetActive(false);
 
             Anger1.SetActive(false);
             Anger2.SetActive(false);
             Anger3.SetActive(true);
         }
-        else if(gage > 9)
+        else if(gage < 10 && gage > 9)
         {
             one.gameObject.SetActive(true);
             two.gameObject.SetActive(true);
@@ -212,6 +222,25 @@ public class RageBar : MonoBehaviour
             eight.gameObject.SetActive(true);
             nine.gameObject.SetActive(true);
             ten.gameObject.SetActive(true);
+            eleven.gameObject.SetActive(false);
+
+            Anger1.SetActive(false);
+            Anger2.SetActive(false);
+            Anger3.SetActive(true);
+        }
+        else if (gage > 10)
+        {
+            one.gameObject.SetActive(true);
+            two.gameObject.SetActive(true);
+            three.gameObject.SetActive(true);
+            four.gameObject.SetActive(true);
+            five.gameObject.SetActive(true);
+            six.gameObject.SetActive(true);
+            seven.gameObject.SetActive(true);
+            eight.gameObject.SetActive(true);
+            nine.gameObject.SetActive(true);
+            ten.gameObject.SetActive(true);
+            eleven.gameObject.SetActive(true);
 
             Anger1.SetActive(false);
             Anger2.SetActive(false);
